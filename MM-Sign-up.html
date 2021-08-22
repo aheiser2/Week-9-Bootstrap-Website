@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container-fluid bg-secondary">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1" >Agatha Christie's Dinner Mysteries</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="Murder-Mystery-Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="MM-Cast.html">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="MM-Sign-up.html">Sign-Up</a>
+                    </li>
+                </ul>
+                </div>
+        </div>
+    </nav>
+    
+    <br>
+    <div class="container">
+    <h1>Sign-up here to join our next party!</h1>
+    <br>
+    <form>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="firstName" class="form-control" id="firstName" aria-describedby="Name">
+        </div>
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="lastName" class="form-control" id="lastName" aria-describedby="Name">
+        </div>
+        <div class="mb-3">
+            <label for="inputEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="date">Pick a date:</label>
+            <input id="date" type="date">
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn text-danger btn-dark">Submit</button>
+        </div>
+      </form>
+    </div>
+
+</body>
+<footer class="container-fluid text-center text-light bg-dark">
+    <div class="row">
+        <div class="col-md-3">
+            Copyright 2021
+        </div>
+        <div class="col-md">
+            <p>It is the brain, the little gray cells on which one must rely. One must seek the truth within--not without.</p>
+            <p id="quote"> - Hercule Poirot</p>
+        </div>
+    </div>
+
+</footer>
+</html>
